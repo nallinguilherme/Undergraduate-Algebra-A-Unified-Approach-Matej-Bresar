@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1737577984.82128 "c:/Users/Guilherme/Documents/Undergraduate-Algebra-A-Unified-Approach-Matej-Bresar/main.tex" "main.pdf" "main" 1737577986.93669 0
+["pdflatex"] 1737583141.47102 "c:/Users/Guilherme/Documents/Undergraduate-Algebra-A-Unified-Approach-Matej-Bresar/main.tex" "main.pdf" "main" 1737583143.53306 0
   "C:/Users/Guilherme/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1737571282 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Guilherme/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1737239190 12015370 28664bd1642d008ee5d694f419996fde ""
   "C:/Users/Guilherme/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -105,11 +105,11 @@
   "C:/Users/Guilherme/AppData/Local/Programs/MiKTeX/tex/latex/tools/indentfirst.sty" 1730400552 1618 d81d7e8646081fd4049b99a8cd8a91df ""
   "C:/Users/Guilherme/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "c:/Users/Guilherme/Documents/Undergraduate-Algebra-A-Unified-Approach-Matej-Bresar/main.tex" 1737573351 911 20109ee9c7fccc5fd93e9259cca7d60d ""
-  "capitulos/c1.tex" 1737577983 4511 e039bd896607c350854964cddbd17577 ""
-  "main.aux" 1737577986 1353 919e7e3c2de193c2b527403016920e46 "pdflatex"
-  "main.out" 1737577986 387 cf2f87c8a9132c4047237d6f9063738d "pdflatex"
+  "capitulos/c1.tex" 1737583140 7162 dca4846e579ad095b1db0765969baefe ""
+  "main.aux" 1737583143 1353 40204d3265a5e876e33dc8af9c6263ad "pdflatex"
+  "main.out" 1737583143 387 cf2f87c8a9132c4047237d6f9063738d "pdflatex"
   "main.tex" 1737573351 911 20109ee9c7fccc5fd93e9259cca7d60d ""
-  "main.toc" 1737577986 200 f02559ba38e0c0e9050a4845f0293c16 "pdflatex"
+  "main.toc" 1737583143 200 f02559ba38e0c0e9050a4845f0293c16 "pdflatex"
   (generated)
   "main.aux"
   "main.log"

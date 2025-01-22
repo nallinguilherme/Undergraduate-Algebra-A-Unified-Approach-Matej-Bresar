@@ -86,5 +86,43 @@ Para \textit{(d)}, vamos verificar a comutatividade: \(m * n = m^n \neq n * m = 
 \end{exercicio}
 
 \begin{solucao}
+	Sejam $S = \mathbb{Z}, T = \{ 1, 0\}, T' = \{-1\}$ e a operação de adição definida em [1.1]. Assim, $1 + (-1) = 0 \not\in T \cap T'$, porém  $0 \in T \cup T'$. 
 	
+	\begin{flushright}
+		\textit{... Procurarei um exemplo melhor.}
+	\end{flushright}
+\end{solucao}
+
+\begin{exercicio}{1.20}
+	Find all finite nonempty subsets of Z that are closed under addition.
+\end{exercicio}
+
+\begin{solucao}
+	Seja \( A \subseteq \mathbb{Z} \) um subconjunto finito não vazio fechado sob adição. Vamos analisar os possíveis casos:
+
+	1. Se \( A \) contém apenas um elemento, então \( A = \{a\} \) onde \( a \in \mathbb{Z} \). Neste caso, \( A \) é fechado sob adição, pois \( a + a = 2a \in A \) se e somente se \( a = 0 \). Portanto, \( A = \{0\} \).
+
+	2. Se \( A \) contém mais de um elemento, seja \( a \) o menor elemento positivo em \( A \). Como \( A \) é fechado sob adição, todos os múltiplos de \( a \) devem estar em \( A \). No entanto, como \( A \) é finito, isso implica que \( A \) deve ser da forma \( \{0, a, 2a, \ldots, ka\} \) para algum \( k \in \mathbb{N} \).
+
+	3. Se \( A \) contém elementos negativos, seja \( -b \) o menor elemento negativo em \( A \). Similarmente, todos os múltiplos de \( -b \) devem estar em \( A \). Portanto, \( A \) deve ser da forma \( \{-kb, \ldots, -b, 0, b, \ldots, jb\} \) para alguns \( k, j \in \mathbb{N} \).
+
+	Portanto, os únicos subconjuntos finitos não vazios de \( \mathbb{Z} \) que são fechados sob adição são da forma \( \{0\} \) ou \( \{-ka, \ldots, -a, 0, a, \ldots, ja\} \) para algum \( a \in \mathbb{Z} \) e \( k, j \in \mathbb{N} \).
+\end{solucao}
+
+\begin{exercicio}{1.20}
+	Let \( T \) be a nonempty subset of \( \mathbb{Z} \). Consider the following conditions:
+	\begin{itemize}
+		\item[(a)] \( T \) is closed under subtraction.
+		\item[(b)] \( T \) is closed under addition.
+		\item[(c)] \( T \) is closed under multiplication.
+	\end{itemize}
+
+	Show that (a) implies both (b) and (c), whereas (b) and (c) are independent conditions
+	(to establish the latter, find an example of a set satisfying (b) but not (c), and an example of a set satisfying (c) but not (b)). Also, find some examples of sets satisfying (a). Can you find them all?
+\end{exercicio}
+
+\begin{solucao}
+	Vamos mostrar que $(a) \implies (b)$. Tome \(a \in \mathbb{Z}\), \newline \(T = \{-ka, \ldots, -a, 0, a, \ldots, ja\}\) para algum \(a \in \mathbb{Z} \) e \( k, j \in \mathbb{N}  \), sem perca de generalidade. Sendo assim, tome $-ka$ e $ja$ e faça $(-ka) + (ja) = (-k + j)a = (j - k)a \in T$, pois $T$ é fechado por subtração.
+
+	Vamos mostrar $(a) \implies (c)$.
 \end{solucao}
