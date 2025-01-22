@@ -1,7 +1,7 @@
 # Solucionário do Livro "Undergraduate Algebra, A Unified Approach" de Matej Bresar
 
 <p align="center">
-  <img src="./capa-livro.PNG" alt="drawing" width="200"/>
+  <img src="./capa-livro.PNG" alt="drawing" width="300"/>
 </p>
 
 ## Capítulos Resolvidos
