@@ -1,0 +1,38 @@
+\documentclass[portuguese,12pt,a4paper]{book}
+
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage[colorlinks=true, linkcolor=blue, urlcolor=red]{hyperref}
+\usepackage[brazil]{babel}
+\usepackage{newclude}
+
+\usepackage{eulervm}
+
+\newcommand{\cqd}{\hfill $\square$}
+
+\newenvironment{solucao}[1][]{\noindent\textbf{Solução:} }{\cqd}
+\newcounter{ex}
+\newtheorem{exercicio}[ex]{Exercício}
+
+\title{
+    \vspace{2cm}
+    \Huge\textbf{Solucionário} \\ [0.5cm]
+    \Large\textit{"Undergraduate Algebra: A Unified Approach"} \\ [0.2cm]
+    \large Matej Bre\v{s}ar
+    \vspace{2cm}
+}
+\author{\Large Guilherme Garcia Nallin \\ \small\texttt{nallinguilherme@gmail.com}}
+
+\date{}
+
+\begin{document}
+	
+	\maketitle
+	
+	\tableofcontents
+	
+	% capítulos
+	\include*{capitulos/c1}
+\end{document}
