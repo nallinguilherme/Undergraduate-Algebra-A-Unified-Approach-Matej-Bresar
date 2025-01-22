@@ -2,3 +2,89 @@
 
 \section{Binary Operations}
 
+\begin{exercicio}{1.17}
+	Let \(\mathcal{P}(x)\) be the power set of the nonempty set X. The union, intersection,
+	and set difference are binary operations on P(X). Determine which among them
+	are associative, commutative, and have a (left or right) identity element.
+\end{exercicio}
+
+
+\begin{solucao}
+Sejam \(A, B, C \in \mathcal{P}(X)\), assim, para a operação de união desses conjuntos, temos:
+
+\[
+\begin{array}{rcl}
+	(A \cup B) \cup C & = & A \cup (B \cup C) \\
+	(A \cup B) \cup C & = & A \cup (C \cup B) \\
+	(A \cup B) \cup C & = & (A \cup C) \cup B
+\end{array}
+\]
+
+O que mostra que a operação de união é associativa. Além disso, temos que: \(A \cup B = B \cup A\), o que mostra que a operação de união é comutativa. Por fim, o conjunto vazio é o elemento identidade para a operação de união, pois \(A \cup \emptyset = \emptyset \cup A = A\).
+
+Para a operação de interseção, podemos verificar a associatividade:
+
+\[
+\begin{array}{rcl}
+	(A \cap B) \cap C & = & A \cap (B \cap C) \\
+	(A \cap B) \cap C & = & A \cap (C \cap B) \\
+	(A \cap B) \cap C & = & (A \cap C) \cap B
+\end{array}
+\]
+
+E o conjunto $X$ é o elemento identidade para a interseção, uma vez que: \(X \cap A = A \cap X = A\).
+
+Por fim, a operação de diferença de conjuntos não é comutativa, tome o contraexemplo em que \(A = \{1\}\), \(B = \{1, 2\}\) e \(C = \{2\}\), assim: \(A - B = \emptyset\) mas \(B - A = {2}\). Para a associatividade, temos: \((A - B) - C = A - (B - C)\), e o conjunto vazio é o elemento identidade para a diferença de conjuntos, pois: \(A - \emptyset = A\).
+\end{solucao}
+
+\begin{exercicio}{1.18}
+Determine which of the following binary operations on \(\mathbb{N}\) are associative, have a (left or right) identity element, and contain two different elements that commute:
+
+\begin{itemize}
+	\item[(a)] \(m * 2n = m + 2n\);
+	\item[(b)] \(m * n = m^2 n\);
+	\item[(c)] \(m * n = m\);
+	\item[(d)] \(m * n = m^n\).
+\end{itemize}
+\end{exercicio}
+\begin{solucao}
+Sejam \(m,n,p \in \mathbb{N}\) então para o caso (a), a comutatividade é falsa, uma vez que \(m * n = m + 2n \neq n + m = n + 2m\), já a associatividade falha em:
+\begin{align*}
+		(m * n) * p = (m + 2n) * p = m + 2n + 2p\\
+		\neq m * (n * p) = m * (n + 2p) = m + 2n + 4p
+\end{align*}
+
+Vamos verificar se há elemento neutro da operação, para isso tome $e \in \mathbb{N}$, para $e = 1$:
+\begin{align*}
+	&m * 1 = m + 2 \cdot 1 = m + 2 \\
+	&\neq 1 * m = 1 + 2m
+\end{align*}
+
+Se considerarmos $0 \not \in \mathbb{N}$, acabou. Caso contrário, para $e = 0$:
+\begin{align*}
+	&m * 0 = m + 2 \cdot 0 = m \\
+	&\neq 0 * m = 0 + 2m = 2m
+\end{align*}
+
+Assim, a operação admite elemento identidade à direita.
+
+Para o item \textit{(b)}, vamos verificar a comutatividade: $m * n = m^2 n \neq n * m = n^2 m$, basta tomar $m = 2, \, n = 3$ que falha. Para a associatividade falha também, basta tomar $m = 2, n = 1, m = 3$. Seja $e \in \mathbb{N}$ o elemento neutro, então $e * m = e^2 m = em = m$, no entanto $m * e = m^2 e = m^2$, o que demonstra que a operação admite identidade à esquerda. 
+
+Para o item \textit{(c)}, vamos verificar a comutatividade: $m * n = m \neq n * m = n$, basta que $m \neq n$ para que falhe a propriedade. Vamos verificar a associatividade:
+\begin{align*}
+	&m * (n * p) = m * n = m \\
+	& = (m * n) * p = m * p = m \\
+\end{align*}
+
+E a existência do elemento identidade segue por: $m * e = m \neq e * m = e$, porém isso implica que, sendo $e_1 = 2, e_2 = 3 \in \mathbb{N}$ temos $m * 2 = m = m * 3 \implies 2 = 3$, o que é falso, contradizendo o proposição de que, uma vez que existe elemento neutro, ele é único.
+
+Para \textit{(d)}, vamos verificar a comutatividade: \(m * n = m^n \neq n * m = n^m\), basta tomar \(m = 2, \, n = 3\) que falha. Para a associatividade falha também, basta tomar \(m = 2, n = 1, p = 3\). Seja \(e \in \mathbb{N}\) o elemento neutro, então \(e * m = e^m = m\), no entanto \(m * e = m^e = m\), o que demonstra que a operação admite identidade à esquerda.(d)
+\end{solucao}
+
+\begin{exercicio}{1.19}
+	Let \( S \) be a set with a binary operation \( * \). If subsets \( T \) and \( T' \) of \( S \) are closed under \( * \), then so is their intersection \( T \cap T' \). Find an example showing that this does not always hold for the union \( T \cup T' \).
+\end{exercicio}
+
+\begin{solucao}
+	
+\end{solucao}

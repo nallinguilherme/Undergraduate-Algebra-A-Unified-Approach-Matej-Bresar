@@ -7,14 +7,15 @@
 \usepackage[colorlinks=true, linkcolor=blue, urlcolor=red]{hyperref}
 \usepackage[brazil]{babel}
 \usepackage{newclude}
-
-\usepackage{eulervm}
+\usepackage{indentfirst}
 
 \newcommand{\cqd}{\hfill $\square$}
 
-\newenvironment{solucao}[1][]{\noindent\textbf{Solução:} }{\cqd}
-\newcounter{ex}
-\newtheorem{exercicio}[ex]{Exercício}
+\newenvironment{solucao}[1][]{\vspace{1em}\noindent\textbf{Solução:} }{\cqd \vspace{1em}}
+
+\newenvironment{exercicio}[1]
+  {\textbf{Exercício #1:} \itshape}
+  {}
 
 \title{
     \vspace{2cm}
@@ -23,6 +24,7 @@
     \large Matej Bre\v{s}ar
     \vspace{2cm}
 }
+
 \author{\Large Guilherme Garcia Nallin \\ \small\texttt{nallinguilherme@gmail.com}}
 
 \date{}
