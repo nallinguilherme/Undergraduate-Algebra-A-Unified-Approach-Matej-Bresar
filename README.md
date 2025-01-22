@@ -1,4 +1,4 @@
-# Solucionário do Livro "Undergraduate Algebra, A Unified Approach" de Matej Bresar
+# Solucionário do Livro _"Undergraduate Algebra, A Unified Approach"_, Matej Brešar
 
 <p align="center">
   <img src="./capa-livro.PNG" alt="drawing" width="300"/>
