@@ -41,7 +41,7 @@ Por fim, a operação de diferença de conjuntos não é comutativa, tome o cont
 Determine which of the following binary operations on \(\mathbb{N}\) are associative, have a (left or right) identity element, and contain two different elements that commute:
 
 \begin{itemize}
-	\item[(a)] \(m * 2n = m + 2n\);
+	\item[(a)] \(m * n = m + 2n\);
 	\item[(b)] \(m * n = m^2 n\);
 	\item[(c)] \(m * n = m\);
 	\item[(d)] \(m * n = m^n\).
@@ -122,7 +122,47 @@ Para \textit{(d)}, vamos verificar a comutatividade: \(m * n = m^n \neq n * m = 
 \end{exercicio}
 
 \begin{solucao}
-	Vamos mostrar que $(a) \implies (b)$. Tome \(a \in \mathbb{Z}\), \newline \(T = \{-ka, \ldots, -a, 0, a, \ldots, ja\}\) para algum \(a \in \mathbb{Z} \) e \( k, j \in \mathbb{N}  \), sem perca de generalidade. Sendo assim, tome $-ka$ e $ja$ e faça $(-ka) + (ja) = (-k + j)a = (j - k)a \in T$, pois $T$ é fechado por subtração.
+	Vamos mostrar que $(a) \implies (b)$. Tome \(a \in \mathbb{Z}\), \newline \(T = \{-ka, \ldots, -a, 0, a, \ldots, ja\}\) para algum \(a \in \mathbb{Z} \) e \( k, j \in \mathbb{N}  \), sem perda de generalidade. Sendo assim, tome $-ka$ e $ja$ e faça $(-ka) + (ja) = (-k + j)a = (j - k)a \in T$, pois $T$ é fechado por subtração.
 
-	Vamos mostrar $(a) \implies (c)$.
+	Vamos mostrar $(a) \implies (c)$. \textit{finalizar...}
 \end{solucao}
+
+\begin{exercicio}{1.22}
+	How many binary operations are there on a set with n elements?
+\end{exercicio}
+
+\begin{solucao}
+	Sejam \(A, B\) dois conjuntos finitos tais que \(|A| = n, \, |B| = m\), assim, o número de mapeamentos (ou seriam funções ?) de \(A\) para \(B\) é igual a \(m^n\), pois, para cada n-ésimo elemento de $A$ existem $m$ possibilidades de mapeamento em $B$. Este é um caso mais geral. Para a operação binária, seja $S$ um conjunto finito tal que \(|S| = n\), assim, os mapeamentos tais que \(S \times S \longrightarrow S\) são \(n^{n \cdot n} = n^{n^2}\). Pois, para cada elemento n-ésimo do conjunto de chegada $S$ temos $n \cdot n$ elementos para serem escolhidos na tupla de partida que constitui $S \times S$.
+\end{solucao}
+
+\begin{exercicio}{1.23}
+	Let S be a set with two elements. Find a binary operation  on S such that \((x * y) * z \neq x * (y * z)\) for all \(x, y,z \in S\).
+\end{exercicio}
+
+\begin{solucao}
+	\textit{Comentário: } Note que o enunciado diz que \(S\) tem apenas dois elementos, porém em seguida ele declara três elementos $x,y,z$ que pertencem a $S$. Caso forem distintos, há contradição. Caso contrário, $y = z$.
+
+	Sejam $x, y, z \in S$ e a operação binária $x * y = x + 2y$. Basta tomar \(x = 1, \, y = 2, z = 1\) como exemplo.
+\end{solucao}
+
+\begin{exercicio}{1.24}
+	Seja \( f \in \text{Map}(\mathbb{Z}) \) dada por \( f(n) = n + 1 \) para todo \( n \in \mathbb{Z} \). Queremos determinar todos os elementos \( g \in \text{Map}(\mathbb{Z}) \) que comutam com \( f \), ou seja, tais que:
+\end{exercicio}
+
+\begin{solucao}
+	Seja \(g \in Map(\mathbb{Z})\) tal que \(g(n) = k + n, \, \forall \, k \in \mathbb{Z}\). Assim:
+
+	\[
+		(f \circ g)(n) = k + n + 1 = (g \circ f)(n) = k + n + 1
+	\]
+\end{solucao}
+
+\begin{exercicio}{1.25}
+	Denote by \( \text{Inj}(X) \) the set of all injective maps in \( \text{Map}(X) \), by \( \text{Sur}(X) \) the set of all surjective maps in \( \text{Map}(X) \), and by \( \text{Bij}(X) \) the set of all bijective maps in \( \text{Map}(X) \).
+
+	\begin{enumerate}
+		\item[(a)] Prove that the sets \( \text{Inj}(X) \), \( \text{Sur}(X) \), \( \text{Bij}(X) \), \( \text{Map}(X) \setminus \text{Inj}(X) \), and \( \text{Map}(X) \setminus \text{Sur}(X) \) are closed under \( \circ \).
+		\item[(b)] Prove that \( \text{Inj}(X) = \text{Sur}(X) = \text{Bij}(X) \) if \( X \) is a finite set.
+		\item[(c)] Prove that the set \( \text{Map}(X) \setminus \text{Bij}(X) \) is closed under \( \circ \) if and only if \( X \) is a finite set.
+	\end{enumerate}
+\end{exercicio}
