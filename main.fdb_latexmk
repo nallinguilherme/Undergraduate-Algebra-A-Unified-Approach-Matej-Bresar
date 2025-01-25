@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1737729266.49196 "c:/Users/Guilherme/Documents/Undergraduate-Algebra-A-Unified-Approach-Matej-Bresar/main.tex" "main.pdf" "main" 1737729268.43588 0
-  "C:/Users/Guilherme/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1737571282 82507 a9eef8696c92627b87e9975edea03b2a ""
+["pdflatex"] 1737816660.09756 "c:/Users/Guilherme/Documents/Undergraduate-Algebra-A-Unified-Approach-Matej-Bresar/main.tex" "main.pdf" "main" 1737816662.2205 0
+  "C:/Users/Guilherme/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1737816048 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Guilherme/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1737239190 12015370 28664bd1642d008ee5d694f419996fde ""
   "C:/Users/Guilherme/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/Guilherme/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -108,12 +108,12 @@
   "C:/Users/Guilherme/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1730400552 10214 61188260d324e94bc2f66825d7d3fdf4 ""
   "C:/Users/Guilherme/AppData/Local/Programs/MiKTeX/tex/latex/tools/indentfirst.sty" 1730400552 1618 d81d7e8646081fd4049b99a8cd8a91df ""
   "C:/Users/Guilherme/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/Guilherme/Documents/Undergraduate-Algebra-A-Unified-Approach-Matej-Bresar/main.tex" 1737729263 846 0dc24cba74aed28c2131119539402a17 ""
-  "capitulos/c1.tex" 1737728948 9851 160f91abcef7bb77fe7c0eb81b157fc4 ""
-  "main.aux" 1737729267 1503 50380dd1028d6b886e9b9b6a8e027d4b "pdflatex"
-  "main.out" 1737729267 555 63cfc4af4f6317be1e7e9b4b26dadde0 "pdflatex"
-  "main.tex" 1737729263 846 0dc24cba74aed28c2131119539402a17 ""
-  "main.toc" 1737729268 282 b29ccea47a825213cda243560c3ab66b "pdflatex"
+  "c:/Users/Guilherme/Documents/Undergraduate-Algebra-A-Unified-Approach-Matej-Bresar/main.tex" 1737816107 854 cbcc83ddd33daeb21bb109edc2af1f7d ""
+  "capitulos/c1.tex" 1737816658 12451 604ee4913dce01596577a84732734041 ""
+  "main.aux" 1737816661 1503 41b29263ebcfb66ddce0367fd7ff3934 "pdflatex"
+  "main.out" 1737816661 555 63cfc4af4f6317be1e7e9b4b26dadde0 "pdflatex"
+  "main.tex" 1737816107 854 cbcc83ddd33daeb21bb109edc2af1f7d ""
+  "main.toc" 1737816661 282 52b3c1e5622468f4c4dcd525d6158747 "pdflatex"
   (generated)
   "main.aux"
   "main.log"

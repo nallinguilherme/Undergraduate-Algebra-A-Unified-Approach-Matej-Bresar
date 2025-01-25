@@ -1,4 +1,4 @@
 \babel@toc {brazil}{}\relax 
-\contentsline {chapter}{\numberline {1}Glossary of Basic Algebraic Structures}{5}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Binary Operations}{5}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Semigrupos e Monóides}{9}{section.1.2}%
+\contentsline {chapter}{\numberline {1}Glossary of Basic Algebraic Structures}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Binary Operations}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Semigrupos e Monóides}{6}{section.1.2}%

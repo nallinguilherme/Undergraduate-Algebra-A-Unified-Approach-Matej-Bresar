@@ -172,3 +172,75 @@ Para \textit{(d)}, vamos verificar a comutatividade: \(m * n = m^n \neq n * m = 
 \end{solucao}
 
 \section{Semigrupos e Monóides}
+
+\begin{exercicio}{1.40}
+	Show that \(\mathbb{N}\) is a semigroup under the operation \(\newline m * n = max\{m, n\}\), as well as under the operation \(m  * n = min\{m, n\}\). Which one among them is a monoid?
+\end{exercicio}
+
+\begin{solucao}
+	Primeiro, seja $*$ a operação tal que, dados \(m, n, p \in \mathbb{N}\), então \(m * n = max\{m, n\}\). Assim, 
+	
+	\[m * (n * p) = m * \max(n, p) = \max(m, n, p) = \max\{m, n\} * p = (m*n)*p\]
+
+	Para a operação \(m*n = \min(m,n)\):
+	\begin{align*}
+		&m * (n*p) = m * \min(n,p) = \min(m,n,p) \\
+		& = \min(m,n) * p = (m * n) * p \\.
+	\end{align*}
+	Note que apenas no primeiro caso, podemos considerar \((\mathbb{N}, *)\) um monóide, uma vez que possui o elemento identidade $1 \in \mathbb{N}$:
+	\begin{align*}
+		m * 1 = \max(1,n) = \max(n, 1) = 1*m, \, \forall m \in \mathbb{N}
+	\end{align*}
+\end{solucao}
+
+\begin{exercicio}{1.41}
+	Find all binary operations on the set \(S=\{e, a\}\) for which $S$ is a semigroup and $e$ is a left identity element.
+\end{exercicio}
+
+\begin{solucao}
+	Sendo $e$ identidade à esquerda, podemos definir a operação $a * e = a$.
+
+	Para que $S$ seja um semigrupo, a operação deve ser associativa. Vamos analisar todas as possíveis operações binárias em $S = \{e, a\}$:
+
+	1. \( e * e = e \)
+	2. \( e * a = a \)
+	3. \( a * e = a \)
+	4. \( a * a = x \), onde \( x \in \{e, a\} \)
+
+	Vamos verificar a associatividade para cada caso de \( a * a \):
+
+	Caso 1: \( a * a = e \)
+	\[
+	(a * a) * a = e * a = a \quad \text{e} \quad a * (a * a) = a * e = a
+	\]
+	Neste caso, a operação é associativa.
+
+	Caso 2: \( a * a = a \)
+	\[
+	(a * a) * a = a * a = a \quad \text{e} \quad a * (a * a) = a * a = a
+	\]
+	Neste caso, a operação também é associativa.
+
+	Portanto, as operações binárias que fazem de \( S \) um semigrupo com \( e \) como identidade à esquerda são:
+
+	1. \( e * e = e \), \( e * a = a \), \( a * e = a \), \( a * a = e \)
+	2. \( e * e = e \), \( e * a = a \), \( a * e = a \), \( a * a = a \)
+\end{solucao}
+
+\begin{exercicio}{1.42}
+	Show that $\mathbb{R}$ is a semigroup under the operation $x * y = |x|y$. Does it have a left or right identity element? For each $x \in \mathbb{R}$, find all elements commuting with $x$.
+\end{exercicio}
+
+\begin{solucao}
+	Devemos verificar a associatividade em \((\mathbb{R}, *)\). Para isso, tome $x, y, z \in \mathbb{R}$, daí:
+
+	\begin{align*}
+		&x * (y * z) = x * |y|z = |x|y||z = |xy|z \\
+		& =||x|y|z = |x|y * z = (x * y) * z \\
+		& \implies x * (y * z) = (x * y) * z
+	\end{align*}
+\end{solucao}
+
+\begin{exercicio}
+	
+\end{exercicio}
