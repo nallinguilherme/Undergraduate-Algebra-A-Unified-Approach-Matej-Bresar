@@ -239,8 +239,34 @@ Para \textit{(d)}, vamos verificar a comutatividade: \(m * n = m^n \neq n * m = 
 		& =||x|y|z = |x|y * z = (x * y) * z \\
 		& \implies x * (y * z) = (x * y) * z
 	\end{align*}
+
+	Agora, vamos determinar os elementos que comutam com \(x\). Para $x \geq  0$, os elementos que comutam são $p \in \mathbb{R}$ tal que $p \geq 0$ e o contrário é válido.
 \end{solucao}
 
-\begin{exercicio}
-	
+\begin{exercicio}{1.43}
+	Show that $\mathbb{Z}$ is a monoid under the operation $m * n = m + n + mn$. Find all
+	its invertible elements.
 \end{exercicio}
+
+\begin{solucao}
+	Vamos mostrar que $(\mathbb{Z}, *)$ é um monóide. Verifiquemos a associatividade, para isso, considere \(a, b, c \in \mathbb{Z}\).
+	\begin{gather*}
+		a * (b * c) = a * (b + c + bc) = a + (b + c + bc) + ab + ac + abc \\ 
+		(a*b)*c = (a + b + ab) * c = (a + b + ab) + c + ac + bc + abc \\
+		\therefore a * (b * c) = (a*b)*c.
+	\end{gather*}
+
+	Note que o elemento identidade da operação definida é \(0 \in \Z\): \(a * 0 = a + 0 + a0 = a = 0 + a + 0a = 0 * a\) e, pela sua existência, $(\mathbb{Z}, *)$ é monóide.
+
+	O único elemento invertível do monóide é \(0 \in \Z\).
+\end{solucao}
+
+\begin{exercicio}{1.44}
+	Prove that in each monoid with identity element $e$,$x * y * x = e$ implies that $x$ and $y$ are invertible and $y = x^{-2}$.
+\end{exercicio}
+
+\begin{solucao}
+	Primeiro, vamos provar que $x*y*x = e \implies \exists \, \, x^{-1}, y^{-1}$. Observe que \(y * x\) é inversa a direita de $x$ e \(x * y\) é inversa a esquerda de \(x\), assim, \(x\) é invertível. Para \(y\) fazemos: \(x * y * x * (y * x) = y * x \implies x * y = y * x\) o que mostra que existe $y^{-1}$.
+
+	Segunod, vamos provar que $y = x^{-2}$.
+\end{solucao}
