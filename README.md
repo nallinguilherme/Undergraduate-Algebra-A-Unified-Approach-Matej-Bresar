@@ -8,3 +8,5 @@
 
 - [ ] Capítulo 1: Glossary of Basic Algebraic Structures
   - [x] 1.1: Binary Operations
+  - [x] 1.2: Semigroups and Monoids
+  - []

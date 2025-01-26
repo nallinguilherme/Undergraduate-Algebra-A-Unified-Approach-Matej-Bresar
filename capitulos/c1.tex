@@ -268,5 +268,30 @@ Para \textit{(d)}, vamos verificar a comutatividade: \(m * n = m^n \neq n * m = 
 \begin{solucao}
 	Primeiro, vamos provar que $x*y*x = e \implies \exists \, \, x^{-1}, y^{-1}$. Observe que \(y * x\) é inversa a direita de $x$ e \(x * y\) é inversa a esquerda de \(x\), assim, \(x\) é invertível. Para \(y\) fazemos: \(x * y * x * (y * x) = y * x \implies x * y = y * x\) o que mostra que existe $y^{-1}$.
 
-	Segunod, vamos provar que $y = x^{-2}$.
+	Segundo, vamos provar que $y = x^{-2}$. Como provamos, existe $x^{-1}$ então:
+	\begin{align*}
+		x * y * x &= e \\
+		x^{-1} * x * y * x &= x^{-1} \\
+		y * x &= x^{-1} \\
+		y * x * x^{-1} &= x^{-1}x^{-1} \\
+		y &= x^{-2}. 
+	\end{align*}
+\end{solucao}
+
+\begin{exercicio}{1.45}
+	Determine which among the following conditions imply that an element of a
+	monoid \( S \) is invertible:
+	\begin{itemize}
+		\item[(a)] There exists a \( y \in S \) such that \( x * y \) is invertible.
+		\item[(b)] There exists a \( y \in S \) commuting with \( x \) such that \( x * y \) is invertible.
+		\item[(c)] There exists an \( n \in \mathbb{N} \) such that \( x^n \) is invertible.
+	\end{itemize}
+\end{exercicio}
+
+\begin{solucao}
+	Para o item (a)
+
+	Para o item (b), temos que \(y\) comuta com \(x\), ou seja:
+
+	\[x * y = y * x\]
 \end{solucao}
