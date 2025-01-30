@@ -295,3 +295,53 @@ Para \textit{(d)}, vamos verificar a comutatividade: \(m * n = m^n \neq n * m = 
 
 	\[x * y = y * x\]
 \end{solucao}
+
+\section{Grupos}
+
+\begin{exercicio}{1.55.} 
+	Determine which of the following sets of numbers are groups under the usual addition:
+
+	\begin{itemize}
+		\item[(a)] $\left\{\frac{n}{2} \mid n \in \mathbb{Z} \right\}$.
+		\item[(b)] $\{x \in \mathbb{R} \mid x \geq 0\}$.
+		\item[(c)] $\{x \in \mathbb{R} \mid x \notin \mathbb{Q} \} \cup \{0\}$.
+		\item[(d)] $\{z \in \mathbb{C} \mid \operatorname{Im}(z) \in \mathbb{Z} \}$.
+		\item[(e)] $\{z \in \mathbb{C} \mid \operatorname{Re}(z) \cdot \operatorname{Im}(z) = 0\}$.
+		\item[(f)] $\{ p + q \sqrt{2} \mid p, q \in \mathbb{Q} \}$.
+	\end{itemize}
+\end{exercicio}
+
+\begin{solucao}
+	(a): É um grupo. O conjunto munido da soma goza da associatividade, todo elemento tem inverso e o elemento identidade da operação é \(0 \in \Z\).
+
+	(b): Não é um grupo. Tome \(1 \in \{x \in \R; \, x \geq 0\}\), não há elemento \(x\) nesse conjunto tal que \(x + 1 = 1 + x = 0\).
+
+	(c): É um grupo. Podemos tratar o conjunto como dos números irracionais, incluindo o zero. O conjunto munido da soma goza da associatividade, todo elemento tem inverso e o elemento identidade da operação é \(0 \in \Z\).
+
+	(d): É um grupo.
+
+	(e): Não é um grupo, pois não é fechado para a soma. Tome \(z_1 = 1\), \(z_2 = i, \, \in \C\), note que \(z_1 + z_2 = 1 + i \not \in \{z \in \mathbb{C} \mid \operatorname{Re}(z) \cdot \operatorname{Im}(z) = 0\}\), apesar de ambos os números estarem no conjunto.
+
+	(f): É um grupo.
+\end{solucao}
+
+\begin{exercicio}{1.56}
+	Determine which of the following sets of numbers are groups under the usual multiplication:
+
+	\begin{itemize}
+		\item[(a)] $\{ 2^n \mid n \in \mathbb{Z} \}$.
+		\item[(b)] $\{ x \in \mathbb{R} \mid x > 0 \}$.
+		\item[(c)] $\{ x \in \mathbb{R} \mid x < 0 \}$.
+		\item[(d)] $\{ x \in \mathbb{R} \mid 0 < x < 1 \}$.
+		\item[(e)] $\{ z \in \mathbb{C} \mid |z| \geq 1 \}$.	
+		\item[(f)] $\{ p + q \sqrt{2} \mid p, q \in \mathbb{Q} \} \setminus \{0\}$.
+	\end{itemize}
+\end{exercicio}
+
+\begin{solucao}
+	(a): É um grupo.
+	(b): É um grupo.
+	(c): Não é um grupo. Neste conjunto munido da operação de multiplicação não há elemento identidade.
+	(d): Não é um grupo. Tome \(0 < x < 1, \, x \in \R\), não há inverso multiplicativo, nem identidade neste conjunto.
+	(e): Não é um grupo. Tome \(z \in \C\) tal que \(|z| \geq 1\)
+\end{solucao}
